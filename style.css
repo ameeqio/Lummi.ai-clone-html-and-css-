@@ -15,10 +15,10 @@
 /* navbar-main styling */
 .navbar-main {
     height: 64px;
-    width: 100%;
+    width: 100vw;
     background-color: #09090B;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -26,6 +26,7 @@
     height: 63px;
     width: 80px;
     margin-top: 4px;
+    margin-right: 8px;
     background-image: url("assets/lummi_logo.png");
     background-size: cover;
     cursor: pointer;
@@ -217,7 +218,7 @@
 /* secondary-navbar */
 .nav-sec {
     height: 200px;
-    width: 100%;
+    width: 100vw;
     background-color: #09090B;
     display: flex;
     flex-direction: column;
@@ -226,7 +227,7 @@
 
 .header1 {
     height: 113px;
-    width: 100%;
+    width: 100vw;
     color: #FAFAFA;
     font-size: 4.8vw;
     margin-bottom: 59px;
@@ -235,7 +236,7 @@
 
 .mini-header {
     height: 28px;
-    width: 100%;
+    width: 100vw;
     font-size: 1.25rem;
     color: #FAFAFA;
     display: flex;
@@ -244,11 +245,11 @@
 }
 
 .nav-items {
-    height: 55px;
-    width: 100%;
+    height: 75px;
+    width: 100vw;
     background-color: #09090B;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .tool-b {
@@ -257,7 +258,7 @@
     background-color: #09090B;
     color: #FAFAFA;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 7px;
     margin-left: 2px;
 }
@@ -268,7 +269,7 @@
     background-color: #09090B;
     color: #FAFAFA;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 7px;
 }
 
@@ -278,7 +279,7 @@
     background-color: #09090B;
     color: #FAFAFA;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 7px;
 }
 
@@ -288,7 +289,7 @@
     background-color: #09090B;
     color: #FAFAFA;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 1080px;
 }
 
@@ -298,11 +299,163 @@
     background-color: #09090B;
     color: #FAFAFA;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     margin-right: 7px;
 }
 
 .hover-item:hover {
     background-color: #27272A;
     transition: all 0.15s linear;
+    cursor: pointer;
+}
+
+.main-section {
+    height: 1220px;
+    width: 100vw;
+    background-color: #09090B;
+    display: flex;
+}
+
+.col-1 {
+    height: 1030px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-2 {
+    height: 910px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-3 {
+    height: 1220px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-4 {
+    height: 880px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img1 {
+    height: 600px;
+    width: 370px;
+    background-image: url("assets/img1.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img3 {
+    height: 400px;
+    width: 370px;
+    background-image: url("assets/img3.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img2 {
+    height: 480px;
+    width: 370px;
+    background-image: url("assets/img2.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img6 {
+    height: 400px;
+    width: 370px;
+    background-image: url("assets/img6.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img7 {
+    height: 600px;
+    width: 370px;
+    background-image: url("assets/img7.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img4 {
+    height: 600px;
+    width: 370px;
+    background-image: url("assets/img4.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}  
+
+.img5 {
+    height: 400px;
+    width: 370px;
+    background-image: url("assets/img5.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img8 {
+    height: 450px;
+    width: 370px;
+    background-image: url("assets/img8.png");
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* footer */
+.foot-one {
+    height: 90px;
+    width: 100vw;
+    background-color: #09090B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-footer {
+    height: 22px;
+    width: 22px;
+    border: 4px solid #404043;
+    border-radius: 50%;
+    border-top-color: #FAFAFA;
+    animation: loading 1.6s ease-in 0.4s infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
