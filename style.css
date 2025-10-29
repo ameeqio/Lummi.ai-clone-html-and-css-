@@ -2,15 +2,9 @@
     margin: 0;
     border: border-box;
     font-family: "Inter", sans-serif;
-}
-
-
-* {
-    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 
 /* navbar-main styling */
 .navbar-main {
